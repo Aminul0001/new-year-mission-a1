@@ -54,3 +54,24 @@ font-family: Inter;
 font-size: 48px;
 font-weight: 700; /*  dicount part end */
 }
+
+/* second banner */
+
+.banner2{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 6.04px;
+text-align: center;
+}
+
+.background2{
+    background-image: url('/Images/Vectorrr.png');
+    width: 1320px;
+height: 600px;
+flex-shrink: 0;
+margin-left: 150px;
+}
