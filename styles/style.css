@@ -26,3 +26,31 @@ font-family: Merriweather;
 font-size: 50px;
 font-weight: 900;
 }
+
+
+/* main body starts */
+
+.discount{
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+}
+
+.offer{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+margin-top: none;
+}
+
+#allCat{
+color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700; /*  dicount part end */
+}
