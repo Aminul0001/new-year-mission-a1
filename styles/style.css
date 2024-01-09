@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .background{
    
-    background-image: url('/imgs/banner-image.png');
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/imgs/banner-image.png');
     margin: 30px 100px;
     background-repeat: no-repeat;
     width: 1320px;
@@ -37,6 +43,7 @@ text-align: center;
 font-family: Inter;
 font-size: 40px;
 font-weight: 700;
+margin-bottom: 20px;
 }
 
 .offer{
@@ -58,6 +65,10 @@ font-weight: 700; /*  dicount part end */
 
 /* second banner */
 
+#banner-flex{
+    display: flex;
+}
+
 .banner2{
     color: #FFF;
 font-family: Merriweather;
@@ -69,7 +80,7 @@ padding-left: 80px;
 }
 
 .background2{
-    background-image: url('/imgs/vector.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/imgs/vector.png');
     width: 1320px;
 height: 600px;
 margin-left: 150px;
