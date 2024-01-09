@@ -273,3 +273,16 @@ font-weight: 400;
 line-height: 32px;
 width: 896px;
 }
+
+.items{
+    display: flex;
+}
+
+.product{
+    margin: 5px;
+}
+
+.product img:hover {
+    transform: scale(1.2);
+    z-index: 1;
+  }
