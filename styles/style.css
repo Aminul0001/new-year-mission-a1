@@ -348,3 +348,41 @@ padding-left: 270px;
     line-height: normal;
   }
 
+  #footer{
+    background-color: #070211;
+  }
+
+  #con-info{
+    display: flex; 
+    justify-content: space-around; 
+    padding-top: 100px;
+  }
+
+  .addres{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+  }
+
+#social{
+    padding-left: 700px;
+}
+
+#allr , #uns{
+
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+#allr h3{
+    padding-left: 140px;
+    padding-top: 200px;
+}
+
+#uns h3{
+    /* padding-right: 200px; */
+}
