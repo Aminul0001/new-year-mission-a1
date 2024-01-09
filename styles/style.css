@@ -286,3 +286,65 @@ width: 896px;
     transform: scale(1.2);
     z-index: 1;
   }
+/* Subscribe newletter section css */
+
+.subs-container{
+    align-content: center;
+    margin-left: 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+}
+
+#subs{
+color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+
+#subsnews{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+max-width: 896px;
+padding-left: 270px;
+}
+
+.subs-container form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+  }
+
+  .subs-container form input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 50px 0px 0px 50px;
+    background: #fff;
+    border: none;
+  }
+
+  .subs-container form button {
+    padding: 20px 30px;
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  .subs-container form input::placeholder {
+    color: rgba(7, 2, 17, 0.3);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
