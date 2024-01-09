@@ -106,7 +106,7 @@ align-items: center;
 gap: 10px;
 border-radius: 8px;
 background: #F00;
-margin-left: 80px;
+
 
 color: #FFF;
 text-align: center;
@@ -114,5 +114,31 @@ font-family: Inter;
 font-size: 12px;
 font-weight: 700;
 text-transform: uppercase;
+}
+
+/* location related */
+
+#location{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.1) 0%,rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+div h6 {
+color: #070211;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+text-transform: capitalize;
+padding: 5px;
+}
+
+div  span{
+    color: #F00;
 }
 
